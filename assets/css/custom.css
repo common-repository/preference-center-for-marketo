@@ -1,0 +1,264 @@
+/* Static Banner */
+.mepc-static-banner {
+    background: #0e3d75;
+    height: 50px;
+    line-height: 1;
+}
+.mepc-static-banner .logo-wrapper {
+    padding: 12px 0;
+    line-height: 1;
+    display: inline-block;
+}
+.mepc-static-banner .mepc-svg-logo {
+    height: 24px;
+    width: 159px;
+}
+.logo-wrapper span.mepc-logo-version {
+    color: #fff;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.logo-wrapper .app-title {
+    padding-top:4px;
+    font-size:18px;
+    color:#FFF;
+}
+.logo-wrapper .app-title .byline {
+    font-size:12px;
+    font-style:italic;
+}
+.static-menu {
+    float: right;
+}
+.static-menu ul {
+    margin: 0;
+}
+.static-menu ul li {
+    display: inline-block;
+    padding: 18px 0;
+    margin: 0;
+    font-size: 14px;
+}
+.static-menu ul li:last-of-type {
+    padding-right: 0;
+}
+.static-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    padding: 5px 10px;
+}
+
+/* Cleaner screen even when updates needed */
+.update-nag{
+    display: none;
+}
+/* Only shown on main plugin view */
+.static-menu ul li.mepc-menu-button {
+    padding: 0 !important;
+    margin-top: -3px !important;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#mepc-create-new-optin-button {
+    padding: 0 10px;
+    background: #d37546;
+    box-shadow: none;
+    color:#fff;
+    border: 0;
+}
+#mepc-create-new-optin-button:hover {
+    background-color:#8F5103;
+    color: #f5f5f5;
+}
+.static-menu ul li a:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.mepc-static-banner .inner-container {
+    padding: 0 1.2rem;
+    max-width: 100%;
+}
+
+/* Welcome Page*/
+body.mepc-welcome {
+    background: #f3f6f8;
+}
+.mepc-welcome-content a.button.button-hero {
+    line-height: 50px;
+    height: 50px;
+}
+.mepc-welcome-content a.button.button-hero.button-mepc-green {
+    background:  #d37546;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 400;
+    border-color:  #d37546;
+    box-shadow: none;
+}
+.mepc-welcome .inner-container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 0;
+}
+.mepc-welcome .logo-wrapper span.mepc-logo-version {
+    display: none;
+}
+.mepc-welcome-content h1 {
+    font-weight: 400;
+    color: #23282d;
+    text-align: center;
+    margin: 44px 0;
+    margin-bottom: 10px;
+}
+
+.mepc-welcome-content h2 {
+    font-weight: 400;
+    color: #23282d;
+    text-align: center;
+    margin: 22px 0;
+    margin-bottom: 15px;
+    font-size:16px;
+}
+.mepc-welcome-content .mepc-sub-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.mepc-welcome-content h2 {
+    color: #23282d;
+}
+.mepc-welcome-content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    margin: 10px 0;
+}
+.mepc-welcome-content .divider {
+    height: 1px;
+    background: #dee4e9;
+    box-shadow: 0px 0px 1px #e8edf0;
+    width: 320px;
+    margin: 0 auto;
+}
+.mepc-welcome-content .welcome-connect .actions {
+    margin: 40px 0;
+    margin-bottom: 8px;
+}
+
+.mepc-welcome-content .mepc-well span.or {
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.mepc-welcome-content .welcome-data-vid {
+    background-image: url(images/mepc-graph.png);
+    background-size: contain;
+    background-position-y: bottom;
+    min-height: 338px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.mepc-welcome-content .welcome-data-vid.active {
+    background-image: none;
+}
+.mepc-welcome-content .welcome-data-vid .actions {
+    margin-top: 45px;
+    z-index: 200;
+    position: relative;
+}
+.mepc-welcome-content .welcome-data-vid.active .actions {
+    display: none;
+}
+.mepc-welcome-content .mepc-welcome-video-holder {
+    height: 1px;
+    margin: 0 auto;
+    width: 100%;
+}
+.mepc-welcome-content .welcome-data-vid.active .mepc-welcome-video-holder {
+    height: auto;
+}
+
+
+.mepc-welcome-content .mepc-feature-box {
+    margin: 50px 0;
+}
+.mepc-welcome-content .mepc-feature-image,
+.mepc-welcome-content .mepc-feature-text {
+    width: 47%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mepc-welcome-content .mepc-feature-image img {
+    max-width: 100%;
+    height: auto;
+}
+.mepc-welcome-content .mepc-feature-text p {
+    font-size: 14px;
+}
+.mepc-welcome-content .mepc-feature-text {
+    margin-left: 5%;
+}
+.mepc-welcome-content .mepc-feature-box:nth-of-type(even) .mepc-feature-image {
+
+}
+.mepc-welcome-content .mepc-feature-box:nth-of-type(even) .mepc-feature-text {
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+.mepc-welcome-content .mepc-well img {
+    max-width: 100%;
+}
+
+.mepc-welcome-content .mepc-single-cta {
+    margin: 5rem;
+    text-align: center;
+}
+
+.mepc-welcome-content .welcome-featuredin img {
+    margin: 40px 0;
+    width: 475px;
+}
+
+.mepc-welcome-content .welcome-featuredin h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mepc-welcome-content .mepc-reviews {
+    display: flex;
+    flex-direction: row;
+}
+.mepc-welcome-content .mepc-reviews p {
+    font-size: 14px;
+}
+.mepc-welcome-content .mepc-talking-head {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+.mepc-welcome-content .mepc-reviews span.reviewer-name {
+    margin-top: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.mepc-welcome-content .mepc-reviews span.reviewer-title {
+    font-weight: 300;
+}
+
+.mepc-welcome-content .mepc-mini-well {
+    margin-right: 15px;
+    flex: 1;
+}
+.mepc-welcome-content .mepc-mini-well:last-of-type {
+    margin-right: 0;
+}

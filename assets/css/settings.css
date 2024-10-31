@@ -1,0 +1,675 @@
+/* ==========================================================================
+   Settings Styles
+   ========================================================================== */
+
+ div.updated,
+ div.error {
+    margin-top: 15px;
+}
+
+.mepc-hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    line-height: 0;
+}
+
+.mepc-clear {
+    clear: both;
+}
+
+.mepc-clear:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: auto;
+    visibility: hidden;
+    zoom: 1;
+}
+
+.mepc-red {
+    color:  #d37546 !important;
+}
+
+.mepc-green {
+    color: green !important;
+}
+/* Remove default WP padding */
+ #wpcontent {
+    padding-left: 0;
+}
+ h2 {
+    padding-right: 0 !important;
+}
+
+ h2 span {
+    font-size: 13px;
+    color: #666;
+}
+
+
+
+/* Keep WordPress Page Styling */
+.mepc-page {
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+/* Build out UI */
+ .inner-container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 0;
+}
+.mepc-well {
+    padding: 2.1rem;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e9eff3;
+    margin-bottom: 15px;
+}
+.mepc-well img {
+    max-width: 100%;
+    height: auto;
+}
+.mepc-mini-well {
+    padding: 1rem;
+}
+
+.mepc-ui {
+    margin-top: 20px;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-top: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.mepc-ui,
+.mepc-ui * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.mepc-tabs {
+    float: left;
+    width: 25%;
+    min-width: 175px;
+    margin: 0;
+    background: #fff;
+    display: inline-block;
+    height: 100%;
+}
+
+.mepc-panels {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mepc-panels li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mepc-panels li a {
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    background: #f1f1f1;
+}
+
+.mepc-panels li a:focus {
+    outline: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.mepc-panels li.mepc-panel-first a {
+    border-top: 1px solid #ddd;
+}
+
+.mepc-panels li.mepc-panel-active a,
+.mepc-panels li a:hover {
+    background: #ffffff;
+}
+
+.mepc-panels li.mepc-panel-active a {
+    color: #222;
+}
+
+.mepc-panels li.mepc-panel-button-item {
+    padding: 20px 10px;
+    background: #f1f1f1;
+}
+
+.mepc-panels li.mepc-panel-button-item  #mepc-create-new-optin-button {
+    width: 100%;
+    text-align: center;
+}
+
+.mepc-tabs-content {
+    float: left;
+    width: 75%;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-right: 0;
+    background: #fff;
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+.mepc-content {
+    display: none;
+}
+
+.mepc-content.mepc-content-active {
+    display: block;
+}
+
+.mepc-content h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.mepc-field-box {
+    margin: 1.5em 0;
+}
+
+.mepc-field-wrap {
+    margin: 0;
+}
+
+.mepc-field-box li {
+    list-style: none;
+    margin: 0;
+}
+
+.mepc-field-box ul.children {
+    margin: 1px 0 1px 20px;
+}
+
+.mepc-field-box .wp-hidden-children {
+    display: none;
+}
+
+.mepc-field-box > div {
+    max-width: 350px;
+}
+
+.mepc-field-box p.hide-if-no-js,
+.mepc-field-box li.hide-if-no-js {
+    display: none;
+}
+
+.mepc-field-wrap label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.mepc-field-wrap input[type=email],
+.mepc-field-wrap input[type=number],
+.mepc-field-wrap input[type=password],
+.mepc-field-wrap input[type=search],
+.mepc-field-wrap input[type=text],
+.mepc-field-wrap select {
+    min-width: 350px;
+    padding: 6px 8px;
+}
+
+.mepc-field-box .select2-container {
+    min-width: 350px;
+}
+
+.mepc-field-wrap textarea {
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.mepc-field-desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #666;
+    vertical-align: middle;
+}
+
+.mepc-back {
+    float: right;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.mepc-optin {
+    padding: 20px 27px 20px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    margin: 0;
+}
+
+.mepc-optin-first {
+    border-top: 1px solid #eee;
+    margin-top: 1em;
+}
+
+.mepc-optin.mepc-test-mode {
+    background: #fcf8e3 !important;
+}
+
+.mepc-optin a {
+    text-decoration: none;
+    border-bottom: 0 none;
+}
+
+.mepc-optin .mepc-test {
+    color: #8a6d3b;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mepc-optin .mepc-status,
+.mepc-optin .mepc-slug {
+    float: right;
+}
+
+.mepc-optin .mepc-slug {
+    font-size: 13px;
+    color: #999;
+    margin-top: 3px;
+}
+
+.mepc-optin .mepc-links,
+.mepc-optin .mepc-links a {
+    font-size: 12px;
+    color: #555d66;
+}
+
+.mepc-optin .mepc-links a:hover {
+    color: #23282d;
+}
+
+/* Inline Note */
+.mepc-inline-notice .mepc-notice-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+.mepc-inline-notice .mepc-field-desc {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.mepc-inline-notice {
+    padding: 15px 0;
+    position: relative;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+
+/* Toggler */
+.mepc-ui-toggle-controller {
+    margin-right: 8px;
+    cursor: pointer;
+    margin: 1.5em 0;
+    font-size: 13px;
+    position: relative;
+}
+.mepc-ui-toggle-controller .mepc-field-desc {
+    padding-left: 25px;
+}
+.mepc-ui-toggle-controller:after {
+    content: "\f132";
+    position: absolute;
+    height: 15px;
+    width: 20px;
+    top: 24px;
+    left: -2px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+}
+.mepc-ui-toggle-controller.toggled:after {
+    content: '\f460';
+    position: absolute;
+    height: 15px;
+    width: 20px;
+    top: 23px;
+    left: -2px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+}
+
+.mepc-ui-toggle-content {
+    display: none;
+}
+.visible.mepc-ui-toggle-content {
+    display: block;
+}
+
+.mepc-video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 25px;
+    height: 0;
+}
+.mepc-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mepc-support-links {
+    width: 40%;
+    margin-top: 1.25em;
+    display: inline-block;
+}
+.mepc-support-links li {
+    font-size: 15px;
+}
+.mepc-support-data {
+    width: 60%;
+    display: inline-block;
+}
+.mepc-half-column {
+    margin-top: 1.25em;
+}
+
+@media all and (min-width: 1400px){
+    .mepc-half-column {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .mepc-support-links,
+    .mepc-support-data {
+        width: calc(50% - 30px);
+        margin-left: 30px;
+        float: right;
+    }
+}
+
+.mepc-copy-button.button {
+    margin-left: 10px;
+}
+
+
+
+/* DatePicker Container */
+.ui-datepicker {
+    width: auto;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .4);
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+.ui-datepicker a {
+    text-decoration: none;
+    position: relative;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    padding: 0px;
+}
+.ui-datepicker-header {
+    color: #e0e0e0;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(250, 250, 250, 2);
+    box-shadow: inset 0 1px 1px 0 rgba(250, 250, 250, .2);
+    text-shadow: 1px -1px 0px #000;
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #444;
+}
+.ui-datepicker-title {
+    text-align: center;
+    background: #444;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #FFF;
+    text-indent: 100%;
+}
+.ui-datepicker-prev {
+    float: left;
+}
+.ui-datepicker-next {
+    float: right;
+}
+.ui-datepicker-prev:before {
+    content: '<';
+    position: absolute;
+    left: -10px;
+    height: 10px;
+    width: 10px;
+}
+.ui-datepicker-next:before {
+    content: '>';
+    position: absolute;
+    left: -10px;
+    height: 10px;
+    width: 10px;
+}
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #000;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 6pt;
+    padding: 5px 0;
+    margin-bottom: 1px;
+    color: #666666;
+    text-shadow: 1px 0px 0px #fff;
+    box-shadow: 0px 1px 0px 1px #E0E0E0;
+}
+.ui-datepicker tbody td {
+    box-shadow: 0px 1px 0px 1px #E0E0E0;
+    padding: 0px;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 0px;
+}
+.ui-datepicker tbody tr {
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #8ed41e;
+    color: #fff;
+}
+.ui-datepicker-calendar .ui-state-active {
+    background: #0d82df;
+    color: #fff;
+    position: relative;
+}
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0;
+}
+
+/** Tooltips **/
+.mepc-has-tooltip:after {
+    content: '\f223';
+    color: #ccc;
+    position: absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    line-height: 1;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-transition: color .1s ease-in 0;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.42857143;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    font-size: 12px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.tooltip.in {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.tooltip.top {
+    margin-top: -3px;
+    padding: 5px 0;
+}
+.tooltip.right {
+    margin-left: 3px;
+    padding: 0 5px;
+}
+.tooltip.bottom {
+    margin-top: 3px;
+    padding: 5px 0;
+}
+.tooltip.left {
+    margin-left: -3px;
+    padding: 0 5px;
+}
+.tooltip-inner {
+    max-width: 200px;
+    padding: 10px 10px 9px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 4px;
+}
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+}
+.tooltip.top-left .tooltip-arrow {
+    bottom: 0;
+    right: 5px;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+}
+.tooltip.top-right .tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+}
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000000;
+}
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000000;
+}
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+}
+.tooltip.bottom-left .tooltip-arrow {
+    top: 0;
+    right: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+}
+.tooltip.bottom-right .tooltip-arrow {
+    top: 0;
+    left: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+}
